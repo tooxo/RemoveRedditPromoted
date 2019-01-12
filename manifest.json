@@ -1,0 +1,12 @@
+{
+  "name" : "Reddit Promotions Hider",
+  "version" : "0.2",
+  "description" : "Removes Reddit Promoted Content",
+  "content_scripts": [
+    {
+      "matches": ["https://reddit.com/*"], 
+      "css" : ["hide_promotions.css"]
+    }
+],
+  "manifest_version": 2
+}
