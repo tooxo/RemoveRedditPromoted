@@ -4,7 +4,7 @@
   "description" : "Removes Reddit Promoted Content",
   "content_scripts": [
     {
-      "matches": ["https://reddit.com/*"], 
+      "matches": ["https://www.reddit.com/*"], 
       "css" : ["hide_promotions.css"]
     }
 ],
